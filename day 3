@@ -1,0 +1,45 @@
+void push(int data) 
+{
+ if (top==n-1)
+ {
+   printf("Stack Overflow\n");
+   return;
+ }
+ else
+ {
+  top++;
+  stack[top]=data;
+  printf("The element %d has been pushed into stack\n",data);
+ }
+} //closing push
+
+void pop(int data) 
+{
+ if (top==-1)
+ {
+   printf("Stack Underflow\n");
+   return;
+ }
+ else
+ {
+  top==;
+  printf("The element %d has been poped into stack",stack[top]);
+ }
+} //closing pop
+
+void push(int data) 
+{
+ if (top==n-1)
+ {
+   printf("Stack Underflow");
+   return;
+ }
+ else
+ {
+  top++;
+  stack[top]=data;
+  printf("The element %d has been pushed into stack",data);
+ }
+} //closing push
+
+  
